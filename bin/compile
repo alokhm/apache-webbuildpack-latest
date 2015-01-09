@@ -82,7 +82,7 @@ cp $compile_buildpack_bin/boot.sh .
  
 # -------------------------------testing purpose copying project index.html to apache2-----------------------------------------------------------------
 
-cp $compile_build_dir/public/index.html $apache2_build_dir/htdocs
+#cp $compile_build_dir/public/index.html $apache2_build_dir/htdocs
 echo "Copied index.html into htdocs..."
 
 # -------------------------------not require here to start apache (testing purpose)-----------------------------------------------------------------
